@@ -1,4 +1,4 @@
 export const environment = {
-  apiServalUrl:"https://employeemanage-app.herokuapp.com",
+  apiServalUrl:"https://employee-manager-service.herokuapp.com/",
   production: true
 };
