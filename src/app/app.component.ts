@@ -5,7 +5,7 @@ import { EmployeeServiceService } from './service/employee-service.service';
 import { NgbModalConfig, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { NgForm } from '@angular/forms';
 
-declare var $: any;
+
 
 @Component({
   selector: 'app-root',
@@ -26,7 +26,9 @@ export class AppComponent implements OnInit {
   }
 
 
-
+openToggel(tglContent:any){
+  this.modalService.open(tglContent);
+}
 
 
   public getEmployee() {

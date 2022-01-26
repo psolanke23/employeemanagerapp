@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   // apiServalUrl:"http://localhost:8080/"
-  apiServalUrl:"https://employeemanage-app.herokuapp.com"
+  apiServalUrl:"https://employee-manager-service.herokuapp.com"
 };
 
 /*
